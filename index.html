@@ -27,15 +27,36 @@
         gtag('config', 'G-M70XVGQ6R9');
     </script>
 </head>
+
+<style>
+    *{
+        font-family: sans-serif;
+    }
+
+    button {
+        padding: 8px 12px;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 8px;
+        height: 100vh;
+    }
+</style>
+
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BDQK29"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
     <p>GA-Prototype</p>
-    <button>Event 1</button>
-    <button>Event 2</button>
-    <button>Event 3</button>
+    <button id="Event A">Event A</button>
+    <button id="Event B">Event B</button>
+    <button id="Event C">Event C</button>
 </body>
 </html>
